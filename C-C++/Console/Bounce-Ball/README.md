@@ -28,4 +28,4 @@ Screen shot for this game:
 
 <img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Beginning.png" width=700 height=350/>
 <img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Playing.png" width=700 height=350/>
-<img src="http://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Ending.png" width=700 height=350/>
+<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Ending.png" width=700 height=350/>
