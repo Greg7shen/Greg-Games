@@ -25,7 +25,6 @@ You will understand it when you start playing.</br>
 Remember the game itself is hard to playing(and of course it is not funny any more). Good luck!</br>
 
 Screen shot for this game:</br>
-<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Beginning.png" width=300 height 400></img> </br>
-<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Playing.png" width=300 height=400> </img></br>
-<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Ending.png" width=300 height=400>
-</img></br>
+<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Beginning.png" width=300 height 400/> </br>
+<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Playing.png" width=300 height=400/></br>
+<img src="https://github.com/Greg7shen/GregGames/tree/master/C-C++/Console/Bounce-Ball/Screenshot/Ending.png" width=300 height=400/></br>
