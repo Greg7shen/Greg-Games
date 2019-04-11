@@ -37,7 +37,7 @@ void GotoXY(int x, int y) {
 }
 
 void ShowTime(long long start, long long end) {
-	GotoXY(1, kWidth - 5);
+	GotoXY(1, kHeight);
 	long long time = (end - start) / CLOCKS_PER_SEC;
 	cout << "Time: " << time;
 }
@@ -47,6 +47,7 @@ void Initialize(Ball &ball, Board &board, Buff &buff1, Buff &buff2) {
 	   And level up when needed */
 	ball.Initialize();
 	board.Initialize();
+	// why this two objects use the same variables?
 	buff1.Initialize();
 	buff2.Initialize();
 }
