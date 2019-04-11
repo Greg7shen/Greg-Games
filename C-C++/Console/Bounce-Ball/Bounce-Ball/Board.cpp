@@ -5,6 +5,7 @@
 #include"User.h"
 
 void Board::Initialize(void) {
+	is_long_ = false;
 	speed_ = 5;
 	length_ = strlen(SHAPE);
 	x_ = kHeight;
@@ -13,7 +14,12 @@ void Board::Initialize(void) {
 
 void Board::Show(void) {
 	GotoXY(y_, x_);
-	std::cout << SHAPE;
+	if (is_long_) {
+		std::cout << LONGSHAPE;
+	}
+	else {
+		std::cout << SHAPE;
+	}
 }
 
 void Board::Move(char direction) {
@@ -27,4 +33,9 @@ void Board::Move(char direction) {
 		y_ += speed_;
 		break;
 	}
+}
+
+void Board::GetLonger(void) {
+	length_ = strlen(LONGSHAPE);
+	is_long_ = true;
 }

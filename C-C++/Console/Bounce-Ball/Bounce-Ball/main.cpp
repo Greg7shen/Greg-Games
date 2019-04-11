@@ -5,20 +5,25 @@
 #include<time.h>
 #include<conio.h>
 #include"Board.h"
+#include"Buff.h"
 #include"Ball.h"
 #include"User.h"
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+void DrawingTheScreen(void);
+void MovingTheObject(void);
+
 // Before every game beginning, we'll create the same two
 // objects, so why not put them out of the main function?
+char key;
 Ball ball;
 Board board;
-
+SpeedLowBuff buff1;
+GetLongerBuff buff2;
 long long start_time, end_time;
 
 int main(int argc, char *argv[]) {
-	char key;
 	char choice;
 	int level;
 	int count;
@@ -28,7 +33,7 @@ int main(int argc, char *argv[]) {
 	// Display the user interface
 	Start();
 replay:
-	Initialize(ball, board);
+	Initialize(ball, board, buff1, buff2);
 	level = 1; count = 0;
 	start_time = clock();
 	while (true) {
@@ -37,16 +42,10 @@ replay:
 		// Display time
 		end_time = clock();
 		ShowTime(start_time, end_time);
-		system("cls");
-		// Draw the borad and the ball
-		board.Show();
-		ball.ShowBall();
-		// Move the ball and borad according to the keyboard inputs
-		ball.Move();
-		if (_kbhit()) {
-			key = _getch();
-			board.Move(key);
-		}
+
+		DrawingTheScreen();
+		MovingTheObject();
+
 		// Check the ball and the board
 		// Counting the number when ball and board contact
 		if (BallOnBoard()) {
@@ -78,4 +77,30 @@ replay:
 	}
 	system("pause>nul");
 	return 0;
+}
+
+void DrawingTheScreen(void) {
+/* Draw all things that needed */
+	system("cls");
+	board.Show();
+	ball.ShowBall();
+	buff1.Show();
+	buff2.Show();
+}
+
+void MovingTheObject(void) {
+/* Move the ball and borad according to the keyboard inputs */
+	ball.Move();
+	buff1.Move();
+	if (IsContact(board, buff1)) {
+		ball.SpeedDown();
+	}
+	buff2.Move();
+	if (IsContact(board, buff2)) {
+		board.GetLonger();
+	}
+	if (_kbhit()) {
+		key = _getch();
+		board.Move(key);
+	}
 }
