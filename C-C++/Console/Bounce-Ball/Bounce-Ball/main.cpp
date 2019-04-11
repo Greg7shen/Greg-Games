@@ -37,11 +37,9 @@ replay:
 	level = 1; count = 0;
 	start_time = clock();
 	while (true) {
+		system("cls");
 		// Should all the process run at the same time?
 		LevelUp(ball, level);
-		// Display time
-		end_time = clock();
-		ShowTime(start_time, end_time);
 
 		DrawingTheScreen();
 		MovingTheObject();
@@ -71,6 +69,8 @@ replay:
 			} while (choice != 'r' || choice != 'q');
 		}
 		level = count + 1;
+		// Display time
+		end_time = clock();
 		// Notice here are 0.1 seconds paused
 		// Control the circuling speed
 		Sleep(100);
@@ -80,16 +80,19 @@ replay:
 }
 
 void DrawingTheScreen(void) {
-/* Draw all things that needed */
-	system("cls");
-	board.Show();
-	ball.ShowBall();
+	/* Draw all things that needed */
 	buff1.Show();
 	buff2.Show();
+	ShowTime(start_time, end_time);
+	board.Show();
+	ball.ShowBall();
+	// Remember to go back to the (0, 0)
+	// Other wise the screen will move down
+	GotoXY(0, 0);
 }
 
 void MovingTheObject(void) {
-/* Move the ball and borad according to the keyboard inputs */
+	/* Move the ball and borad according to the keyboard inputs */
 	ball.Move();
 	buff1.Move();
 	if (IsContact(board, buff1)) {
