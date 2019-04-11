@@ -17,6 +17,12 @@ void Ball::SpeedUp(int level) {
 	speed_y_ = static_cast<float>(level);
 }
 
+void Ball::SpeedDown(void) {
+// 控制台的速度必须是整数
+	speed_x_--;
+	speed_y_--;
+}
+
 void Ball::Move(void) {
 	// The speed of x and y must be integers
 	x_ += static_cast<int>(dir_x_ * speed_x_);

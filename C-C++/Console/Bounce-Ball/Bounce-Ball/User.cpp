@@ -42,11 +42,13 @@ void ShowTime(long long start, long long end) {
 	cout << "Time: " << time;
 }
 
-void Initialize(Ball &ball, Board &board) {
+void Initialize(Ball &ball, Board &board, Buff &buff1, Buff &buff2) {
 	/* Initialize the initial condition
 	   And level up when needed */
 	ball.Initialize();
 	board.Initialize();
+	buff1.Initialize();
+	buff2.Initialize();
 }
 
 void LevelUp(Ball &ball, int level) {
@@ -79,7 +81,7 @@ void End(long long delta_time) {
 	cout << "Thanks for playing!";
 	// Show the next lineS
 	GotoXY(kWidth / 2 - 13, kHeight / 2);
-	cout << "You've insisted:" << delta_time / CLOCKS_PER_SEC << " seconds";
+	cout << "You've insist:" << delta_time / CLOCKS_PER_SEC << " seconds";
 	GotoXY(kWidth / 2 - 10, kHeight / 2 + 2);
 	cout << "Press R to play again";
 	GotoXY(kWidth / 2 - 10, kHeight / 2 + 3);

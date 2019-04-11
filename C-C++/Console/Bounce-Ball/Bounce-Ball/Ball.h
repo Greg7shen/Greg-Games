@@ -14,6 +14,7 @@ public:
 	void Move(void);
 	void Initialize(void);
 	void SpeedUp(int);
+	void SpeedDown(void);
 	void ShowBall(void);
 
 private:

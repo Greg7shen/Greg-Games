@@ -18,7 +18,7 @@ void GotoXY(int x, int y);
 void ShowTime(long long, long long);
 
 // The functions of this program 
-void Initialize(Ball &, Board &);
+void Initialize(Ball &, Board &, Buff&, Buff&);
 void LevelUp(Ball &, int);
 void Start(void);
 bool IsGameOver(void);
