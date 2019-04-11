@@ -1,2 +1,9 @@
-﻿  User.cpp
-  Bounce-Ball.vcxproj -> D:\VS C\Bounce-Ball\Debug\Bounce-Ball.exe
+﻿  Ball.cpp
+d:\visual studio\bounce-ball\bounce-ball\ball.cpp(7): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Board.cpp
+d:\visual studio\bounce-ball\bounce-ball\board.cpp(23): warning C4244: “-=”: 从“float”转换到“int”，可能丢失数据
+d:\visual studio\bounce-ball\bounce-ball\board.cpp(27): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+  main.cpp
+  User.cpp
+  正在生成代码...
+  Bounce-Ball.vcxproj -> D:\Visual Studio\Bounce-Ball\Debug\Bounce-Ball.exe

@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{BA86C336-9711-41B1-A762-F203A5B218E1}</ProjectGuid>
+    <ProjectGuid>{1FAE9597-0454-4FA9-9641-2EB42FD0C28A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BounceBall</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
@@ -143,15 +143,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\Ball.h" />
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\Board.h" />
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\User.h" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\Ball.cpp" />
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\Board.cpp" />
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\main.cpp" />
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\User.cpp" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

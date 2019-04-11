@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\Ball.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\Board.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\24312\Desktop\Bounce Ball\User.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="Ball.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\Ball.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\Board.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\24312\Desktop\Bounce Ball\User.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="Ball.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
