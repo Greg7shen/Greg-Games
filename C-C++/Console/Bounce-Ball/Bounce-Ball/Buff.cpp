@@ -16,7 +16,7 @@ bool IsContact(Board& board, Buff& Buff) {
 }
 
 void Buff::Initialize(void) {
-	// There are no need to use srand() again.
+	// There's no need to use srand() again.
 	flag = true;
 	x_ = 0; y_ = rand() % kWidth;
 	// Limit the speed under 3
