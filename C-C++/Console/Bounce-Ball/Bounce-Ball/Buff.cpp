@@ -5,9 +5,9 @@
 #include"Board.h"
 #include"Buff.h"
 
-// ÕâÀïcontactÊÇ¹²Í¬µÄÐÐÎª£¬µ«ÊÇÎÒÓ¦¸Ã´«ÈëÔõÃ´ÑùµÄÀàÐÍÄØ£¿
-// ´«Èë»ùÀà£¬ÅÉÉúÀà¿ÉÒÔ×ª»»ÎªÆä»ùÀà
-// ÌÖÂÛÁ½¸öÃ»ÓÐ¼Ì³Ð¹ØÏµµÄ¶ÔÏóÖ®¼äµÄ¹ØÏµÊ±Ê¹ÓÃfriend
+// è¿™é‡Œcontactæ˜¯å…±åŒçš„è¡Œä¸ºï¼Œä½†æ˜¯æˆ‘åº”è¯¥ä¼ å…¥æ€Žä¹ˆæ ·çš„ç±»åž‹å‘¢ï¼Ÿ
+// ä¼ å…¥åŸºç±»ï¼Œæ´¾ç”Ÿç±»å¯ä»¥è½¬æ¢ä¸ºå…¶åŸºç±»
+// è®¨è®ºä¸¤ä¸ªæ²¡æœ‰ç»§æ‰¿å…³ç³»çš„å¯¹è±¡ä¹‹é—´çš„å…³ç³»æ—¶ä½¿ç”¨friend
 bool IsContact(Board& board, Buff& Buff) {
 	if (Buff.x_ >= kHeight && (Buff.y_ >= board.y_ && Buff.y_ <= board.y_ + board.length_)) {
 		return true;
@@ -16,7 +16,7 @@ bool IsContact(Board& board, Buff& Buff) {
 }
 
 void Buff::Initialize(void) {
-	srand(time(NULL));
+	// There are no need to use srand() again.
 	flag = true;
 	x_ = 0; y_ = rand() % kWidth;
 	// Limit the speed under 3
@@ -32,12 +32,12 @@ void Buff::Move(void) {
 	}
 }
 
-// ÕâÀï¿ÉÒÔÓÃÎö¹¹º¯Êý¸Ä½ø
+// è¿™é‡Œå¯ä»¥ç”¨æžæž„å‡½æ•°æ”¹è¿›
 inline void Buff::Disappear(void) {
 	flag = false;
 }
 
-// ÕâÀï¿ÉÒÔÓÃÖØÔØ¸Ä½ø
+// è¿™é‡Œå¯ä»¥ç”¨é‡è½½æ”¹è¿›
 void SpeedLowBuff::Show(void) {
 	if (flag) {
 		GotoXY(y_, x_);
@@ -47,7 +47,7 @@ void SpeedLowBuff::Show(void) {
 
 void GetLongerBuff::Show(void) {
 	if (flag) {
-		GotoXY(y_ + 20, x_);
+		GotoXY(y_, x_);
 		cout << "#";
 	}
 }
