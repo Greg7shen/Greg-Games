@@ -8,8 +8,8 @@ void Ball::Initialize(void) {
 	speed_x_ = 1;
 	speed_y_ = 1;
 	dir_x_ = dir_y_ = 1;
-	x_ = rand() % 10;
-	y_ = rand() % 80;
+	x_ = 1;
+	y_ = rand() % kWidth;
 }
 
 void Ball::SpeedUp(int level) {
@@ -18,7 +18,7 @@ void Ball::SpeedUp(int level) {
 }
 
 void Ball::SpeedDown(void) {
-// ¿ØÖÆÌ¨µÄËÙ¶È±ØĞëÊÇÕûÊı
+// æ§åˆ¶å°çš„é€Ÿåº¦å¿…é¡»æ˜¯æ•´æ•°
 	speed_x_--;
 	speed_y_--;
 }
