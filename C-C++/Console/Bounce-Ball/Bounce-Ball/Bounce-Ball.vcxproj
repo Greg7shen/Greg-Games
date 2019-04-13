@@ -143,17 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="Buff.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="User.cpp" />
+    <ClInclude Include="..\Build\Ball.h" />
+    <ClInclude Include="..\Build\Board.h" />
+    <ClInclude Include="..\Build\Buff.h" />
+    <ClInclude Include="..\Build\User.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="Buff.h" />
-    <ClInclude Include="User.h" />
+    <ClCompile Include="..\Build\Ball.cpp" />
+    <ClCompile Include="..\Build\Board.cpp" />
+    <ClCompile Include="..\Build\Buff.cpp" />
+    <ClCompile Include="..\Build\main.cpp" />
+    <ClCompile Include="..\Build\User.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

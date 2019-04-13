@@ -26,6 +26,7 @@ Remember the game itself is hard to playing(and of course it is not funny any mo
 
 Screen shot for this game:
 
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Beginning.png" width=700 height=350/>
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Playing.png" width=700 height=350/>
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Screenshot/Ending.png" width=700 height=350/>
+<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Beginning.png" width=700 height=350/>
+<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Playing.png" width=700 height=350/>
+<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Ending.png" width=700 height=350/>
+

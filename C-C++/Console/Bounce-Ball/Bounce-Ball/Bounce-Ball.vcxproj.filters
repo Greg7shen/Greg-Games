@@ -15,34 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="User.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Board.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Buff.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="..\Build\Ball.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Build\Board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Build\Buff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Build\User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ball.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Board.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="User.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Buff.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="..\Build\Ball.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Build\Board.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Build\Buff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Build\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Build\User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

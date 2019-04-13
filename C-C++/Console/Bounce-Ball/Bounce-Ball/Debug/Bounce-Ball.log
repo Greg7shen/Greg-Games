@@ -1,3 +1,0 @@
-﻿  Buff.cpp
-d:\mygithub\greggames\c-c++\console\bounce-ball\bounce-ball\buff.cpp(19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  Bounce-Ball.vcxproj -> D:\MyGitHub\GregGames\C-C++\Console\Bounce-Ball\Debug\Bounce-Ball.exe
