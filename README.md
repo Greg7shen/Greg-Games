@@ -1,4 +1,4 @@
-Greg Games
+BAS's Games
 ==========
 As is known to all, some classic , and simple game program is perhaps the best way to practice our programming skills .
 On the one hand, it is easy to produce,
