@@ -28,6 +28,6 @@ Remember the game itself is hard to playing(and of course it is not funny any mo
 Screen shot for this game:
 
 <img src="./Material/Screenshot/Beginning.png" width=700 height=350/>
-<img src="/Material/Screenshot/Playing.png" width=700 height=350/>
-<img src="/Material/Screenshot/Ending.png" width=700 height=350/>
+<img src="./Material/Screenshot/Playing.png" width=700 height=350/>
+<img src="./Material/Screenshot/Ending.png" width=700 height=350/>
 
