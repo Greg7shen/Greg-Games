@@ -1,4 +1,5 @@
 # Bounce Ball
+
 Here is a simple game produced by C++.</br>
 I firmly believe that this program is so easy to read that I don't want to put any comments in here.</br>
 If you have free time to play, I could tell you some details about this game.<.br>
@@ -26,7 +27,7 @@ Remember the game itself is hard to playing(and of course it is not funny any mo
 
 Screen shot for this game:
 
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Beginning.png" width=700 height=350/>
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Playing.png" width=700 height=350/>
-<img src="https://raw.githubusercontent.com/Greg7shen/GregGames/master/C-C%2B%2B/Console/Bounce-Ball/Material/Screenshot/Ending.png" width=700 height=350/>
+<img src="./Material/Screenshot/Beginning.png" width=700 height=350/>
+<img src="/Material/Screenshot/Playing.png" width=700 height=350/>
+<img src="/Material/Screenshot/Ending.png" width=700 height=350/>
 
